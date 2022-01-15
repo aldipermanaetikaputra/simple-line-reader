@@ -41,7 +41,7 @@ The module exports the following functions:
 
 - `new LineReader(options: LineReaderOptions): LineReader`
 
-```js
+```ts
 interface LineReaderOptions {
   filePath: string;
   bufferSize?: number; // Defaults to 1024 (1 kB)
