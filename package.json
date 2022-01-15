@@ -1,0 +1,41 @@
+{
+  "name": "simple-line-reader",
+  "version": "1.0.0",
+  "url": "https://github.com/aldipermanaetikaputra/simple-line-reader",
+  "keywords": [
+    "file",
+    "line",
+    "reader",
+    "buffer",
+    "stream"
+  ],
+  "description": "Simple, buffered, line-by-line file reader with customizable buffer size.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "author": "Aldi Permana Etika Putra <aldipermanaetikaputra@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://aldipermanaetikaputra@github.com/aldipermanaetikaputra/simple-line-reader.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "@types/node": "^17.0.5",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "simple-chunk-reader": "^1.0.5"
+  }
+}
